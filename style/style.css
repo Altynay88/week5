@@ -1,0 +1,444 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  ;
+  font-size: 18px;
+  background-color: fff;
+}
+
+*,
+* :before,
+* :after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+
+/* container
+==================*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header
+==================*/
+.header {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+  top: 0;
+  left: 0
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.nav {
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  margin-right: 250px;
+
+}
+
+.nav-link {
+  margin-left: 50px;
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.1 linear;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.btn {
+  margin-left: 30px;
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  color: #000000;
+  font-size: 17px;
+  background: #00C805;
+  padding: 10px 41px 10px 41px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00C805;
+  background-image: -webkit-linear-gradient(top, #00C805, #116b4a);
+  background-image: -moz-linear-gradient(top, #00C805, #116b4a);
+  background-image: -ms-linear-gradient(top, #00C805, #116b4a);
+  background-image: -o-linear-gradient(top, #00C805, #116b4a);
+  background-image: linear-gradient(to bottom, #00C805, #116b4a);
+  text-decoration: none;
+}
+
+/* Intro
+==================*/
+
+.intro {
+  height: 654px;
+  background: #C3F53C;
+
+}
+
+.intro-item {
+  display: flex;
+  justify-content: space-between;
+  height: 653px;
+  width: 1224px;
+  margin-top: 100px;
+}
+
+.intro-inner {
+  height: 400px;
+  width: 500px;
+
+  margin-bottom: 108px;
+  position: relative;
+
+}
+
+.intro-header {
+  position: absolute;
+  height: 120px;
+  left: 0%;
+  right: 39.02%;
+  top: 94px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 60px;
+  /* or 130% */
+
+  letter-spacing: 1.75px;
+
+  color: #000000;
+}
+
+.intro-text {
+  position: absolute;
+  height: 144px;
+  left: 0%;
+  right: 1.22%;
+  top: 245px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  letter-spacing: 0.24px;
+
+  color: #000000;
+
+}
+
+.intro-btn {
+  margin-left: 30px;
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  color: #ffffff;
+  font-size: 17px;
+  background: #000000;
+  padding: 10px 41px 10px 41px;
+  text-decoration: none;
+  position: absolute;
+  top: 428px;
+}
+
+.intro-info {
+  position: absolute;
+  height: 28px;
+  left: 10.96%;
+  right: 0%;
+  top: 518px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  letter-spacing: 0.25px;
+
+  color: #000000;
+}
+
+.intro-img {
+margin-top: 31px;
+}
+/* Space
+==================*/
+
+.space {
+  height: 92px;
+  display: flex;
+  justify-content: center;
+}
+
+.space-text {
+  margin-top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  letter-spacing: 0.25px;
+  
+  color: #000000;
+}
+
+/* Investors
+==================*/
+.investors{
+  width: 1140px;
+  height: 530px;
+  display: flex;
+}
+
+.investors-text {
+  width:620px;
+  position: relative;
+}
+
+.investors-text-main {
+  position: absolute;
+  height: 60px;
+  width: 456px;
+left: 11px;
+right: 7.32%;
+top: 166px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 60px;
+/* identical to box height, or 133% */
+
+letter-spacing: 1.75px;
+
+color: #000000;
+}
+
+.investors-text-under {
+  position: absolute;
+  width: 250px;
+height: 28px;
+left: 11px;
+right: 18.03%;
+top: 252px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+letter-spacing: 0.25px;
+
+color: #000000;
+}
+
+/* Fractional
+==================*/
+.fractional {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  height: 530px;
+
+}
+.fractional-item {
+display: flex;
+flex-wrap: wrap;
+
+}
+.fractional-title {
+  position: relative;
+  height: 40px;
+  left: 0%;
+  right: 46.74%;
+  top: -2px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 40px;
+  /* identical to box height, or 129% */
+  
+  letter-spacing: 0.32px;
+  
+  color: #000000;
+  
+}
+
+.fractional-title-under {
+  
+position: absolute;
+height: 28px;
+left: 0%;
+right: 50.13%;
+top: 56px;
+width: 400px;;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 28px;
+/* identical to box height, or 165% */
+
+letter-spacing: 0.25px;
+
+color: #6F787E;
+}
+
+.fractional-text-main
+{
+  height: 132px;
+  width: 862px;
+  margin-top: 182px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fractional-text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  letter-spacing: 0.25px;
+}
+
+.fractional-text {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+margin-top: 20px;
+letter-spacing: 0.25px;
+
+color: #000000;
+}
+
+.fractional-photo{
+  position: relative;
+}
+
+
+.fractional-img {
+  position: absolute;
+  height: 529px;
+  left: 75.74%;
+  right: -13.07%;
+  top: -50px;
+  
+}
+.fractional-vector {
+margin-top: 64px;
+height: 28px;
+left: 14.55%;
+right: -6.18%;
+top: 2px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+letter-spacing: 0.25px;
+
+color: #6F787E;
+}
+
+/* Footer
+==================*/
+.footer {
+  height: 333px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  
+  background: #000000;
+  border-radius: 0px;
+}
+
+.footer-text {
+  padding-top: 30px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+letter-spacing: 0.1px;
+
+color: #FFFFFF;
+
+}
+
+.green {
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.1px;
+
+color: #00C805;
+text-decoration: none;
+}
